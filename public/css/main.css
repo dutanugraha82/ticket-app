@@ -1,0 +1,36 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+nav a h3 {
+    color: #fbfada;
+    font-weight: 600;
+}
+
+h5 {
+    color: #fbfada !important;
+}
+
+.bg-dark-green {
+    background-color: #12372a;
+}
+
+.txt-muted {
+    color: #fdfced;
+}
+
+.nav-item a {
+    color: #fdfced;
+}
+
+.nav-item a:hover {
+    color: #adbc9f;
+}
+
+.nav-item a:focus {
+    color: #436850;
+}
+
+.content {
+    height: 100vh;
+}
