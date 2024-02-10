@@ -1,5 +1,28 @@
 body {
     font-family: "Montserrat", sans-serif;
+    background-color: #efefef !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.title h1,
+.title h2,
+.title h3,
+.title h4,
+.title h5 {
+    color: #12372a;
+    font-weight: 800;
+}
+
+.title-light h1,
+.title-light h2,
+.title-light h3,
+.title-light h4,
+.title-light h5 {
+    color: #fbfada;
+    font-weight: 800;
 }
 
 nav a h3 {
@@ -7,8 +30,8 @@ nav a h3 {
     font-weight: 600;
 }
 
-h5 {
-    color: #fbfada !important;
+footer h5 {
+    color: #fbfada;
 }
 
 .bg-dark-green {
@@ -33,4 +56,110 @@ h5 {
 
 .content {
     height: 100vh;
+}
+
+.slideshow {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.slide-img {
+    width: 100%;
+    max-height: 500px;
+    height: auto;
+    border-radius: 25px;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 0.875rem;
+}
+
+.slide-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.events {
+    background-color: #12372a;
+}
+
+.card-x img {
+    width: 112% !important;
+    /* height: 100px !important; */
+    object-fit: fill;
+}
+
+.card-x img.soldout {
+    width: 55% !important;
+    /* height: 100% !important; */
+    object-fit: fill;
+    filter: grayscale(100%);
+}
+
+.card-y {
+    /* background-color: #436850; */
+    background-color: #ffffff;
+}
+
+.card-y img {
+    width: 100% !important;
+    /* height: 100% !important; */
+    object-fit: fill;
+}
+
+.card-y img.soldout {
+    width: 100% !important;
+    /* height: 100% !important; */
+    object-fit: fill;
+    filter: grayscale(100%);
+}
+
+.card-y a {
+    background-color: #436850;
+    color: #fdfced;
+    border-radius: 50px;
+    padding: 10px 23px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: none;
+}
+
+.card-y a.soldout {
+    background-color: #efefef;
+    color: #686868;
+    border-radius: 50px;
+    padding: 10px 23px;
+    cursor: not-allowed;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: none;
+}
+
+a.custom-btn:hover {
+    background-color: #12372a;
+}
+
+button.customer-other-btn {
+    background-color: #efefef;
+    border: 2px solid #436850;
+    color: #436850;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px 23px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+button.customer-other-btn:hover {
+    background-color: #436850;
+    color: #fdfced;
+}
+
+@media screen and (max-width: 768px) {
+    .slide-img {
+        height: 300px; /* Atur ulang tinggi maksimum untuk tampilan mobile */
+    }
 }
