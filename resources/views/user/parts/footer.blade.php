@@ -19,12 +19,10 @@
             </div>
 
         </div>
-        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <h3 class="col-md-4 mb-0 txt-muted">Tiketgue.</h3>
-
-            <p class="col-md-4 text-center mb-0 txt-muted">© 2023 Company, Inc</p>
+        <div class="d-flex justify-content-center align-items-center py-3 my-4 border-top sign">
+            <h3 class="col-6 txt-muted">Tiketgue.</h3>
         
-            <ul class="nav col-md-4 justify-content-end">
+            <ul class="nav col-6 justify-content-end">
               <li class="nav-item"><a href="#" class="nav-link px-2 txt-muted"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
               <li class="nav-item"><a href="#" class="nav-link px-2 txt-muted"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
               <li class="nav-item"><a href="#" class="nav-link px-2 txt-muted"><i class="fa-brands fa-tiktok fa-xl"></i></a></li>

@@ -11,7 +11,8 @@ body {
 .title h2,
 .title h3,
 .title h4,
-.title h5 {
+.title h5,
+.title h6 {
     color: #12372a;
     font-weight: 800;
 }
@@ -20,7 +21,8 @@ body {
 .title-light h2,
 .title-light h3,
 .title-light h4,
-.title-light h5 {
+.title-light h5,
+.title-light h6 {
     color: #fbfada;
     font-weight: 800;
 }
@@ -64,8 +66,8 @@ footer h5 {
 }
 
 .slide-img {
-    width: 100%;
-    max-height: 500px;
+    width: 800px;
+    max-height: 400px;
     height: auto;
     border-radius: 25px;
     display: inline-block;
@@ -74,8 +76,8 @@ footer h5 {
 }
 
 .slide-img img {
-    width: 100%;
-    height: 100%;
+    width: 800px;
+    height: 400px;
     object-fit: cover;
 }
 
@@ -141,7 +143,7 @@ a.custom-btn:hover {
     background-color: #12372a;
 }
 
-button.customer-other-btn {
+button.custom-btn {
     background-color: #efefef;
     border: 2px solid #436850;
     color: #436850;
@@ -153,13 +155,45 @@ button.customer-other-btn {
     text-decoration: none;
 }
 
-button.customer-other-btn:hover {
+button.custom-btn:hover {
     background-color: #436850;
     color: #fdfced;
 }
 
+@media screen and (max-width: 576px) {
+    .item-detail .icon-wrapper {
+        background-color: transparent !important;
+    }
+
+    .slide-img {
+        width: 250px !important;
+        max-height: 180px !important;
+        height: 180px !important;
+        margin-right: 0.3rem !important;
+        border-radius: 10px !important;
+    }
+
+    .slide-img img {
+        width: 250px;
+        height: 180px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .slide-img {
-        height: 300px; /* Atur ulang tinggi maksimum untuk tampilan mobile */
+        width: 265px !important;
+        max-height: 135px !important;
+        height: 135px !important;
+        margin-right: 0.3rem !important;
+        border-radius: 10px !important;
+    }
+
+    .slide-img img {
+        width: 265px;
+        height: 135px;
+    }
+
+    .wrap-carousel .carousel-item img {
+        height: 200px !important;
     }
 }

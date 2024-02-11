@@ -18,6 +18,8 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get("/", [HomeCT::class, 'index']);
+Route::get("/event/{eventName}", [HomeCT::class, 'show']);
+Route::get("/explore", [HomeCT::class, 'explore']);
 
 
 

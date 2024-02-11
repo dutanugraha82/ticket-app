@@ -29,13 +29,19 @@
                 <div class="slideshow mb-5">
                     {{-- @for ($i = 0; $i < 4; $i++) --}}
                         <div class="slide-img">
-                            <img src="{{ asset('img/test.jpg') }}" alt="img" class="rounded-4">
+                            <a href="/event/youteventname">
+                                <img src="{{ asset('img/test.jpg') }}" alt="img" class="rounded-4">
+                            </a>
                         </div>
                         <div class="slide-img">
-                            <img src="{{ asset('img/test2.jpg') }}" alt="img" class="rounded-4">
+                            <a href="/event/youteventname">
+                                <img src="{{ asset('img/test2.jpg') }}" alt="img" class="rounded-4">
+                            </a>
                         </div>
                         <div class="slide-img">
-                            <img src="{{ asset('img/test.jpg') }}" alt="img" class="rounded-4">
+                            <a href="/event/youteventname">
+                                <img src="{{ asset('img/test.jpg') }}" alt="img" class="rounded-4">
+                            </a>
                         </div>
                     {{-- @endfor --}}
                 </div>
@@ -67,7 +73,7 @@
                                     <h4>Rp. 100.000</h4>
                                 </div>
                                 <div>
-                                    <a href="#" class="custom-btn">Beli</a>
+                                    <a href="/event/youreventname" class="custom-btn">Beli</a>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +110,7 @@
 
 
         <div class="d-flex align-items-center justify-content-center mt-5">
-            <button type="button" class="customer-other-btn">Lihat acara lain</button>
+            <button type="button" class="custom-btn">Lihat acara lain</button>
         </div>
 
     </div>
